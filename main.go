@@ -30,4 +30,6 @@ func main () {
   for k, v := range output {
     fmt.Printf("%s\t %d\n", k, v)
   }
+
+  fmt.Printf("\nTotal Unique Colors: %d\n", len(output))
 }
